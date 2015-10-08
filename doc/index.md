@@ -7,3 +7,4 @@
 4. [Create the application](create-the-application.md)
 5. [Add Todo's](add-todos.md)
 6. [Add Attributes to Todo's](add-attributes-to-todos.md)
+7. [Start the server](start-the-server.md)
