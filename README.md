@@ -1,12 +1,3 @@
-# ToDo
+# Quick Start Ruby & Rails
 
-This is a todo-list application based on Rails using Docker to provide an ease development environment.
-It is also meant to be a tutorial to get started with Rails and Ruby. Each commit in this repository also poses as a step of a tutorial. You can best read it with the following command:
-
-```
-$ git log --format="## %s%n%b%n" --reverse > tutorial.md
-```
-
-## Prerequisite for the tutorial
-
-The tutorial is meant for beginners of Rails and Ruby. Each topic has related links, which help get into the topic deeper if needed.
+This is a introduction to Ruby by using Rails to have practical examples. It requires only a base knowledge about the web, how it works and a bit familiarity with tools like a text editor and the terminal/shell. You can find a few pointers where to start, what is recommended to use and tips in the [Wiki](https://github.com/bastilian/Rails-Workshop_Todo-App/wiki). Or join the  [Gitter Channel](https://gitter.im/bastilian/Quick-Start-Rails-and-Ruby) and learn from and with others.

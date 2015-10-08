@@ -1,0 +1,4 @@
+shell:
+  build: .
+  volumes:
+    - ".:/work"
