@@ -1,4 +1,20 @@
-shell:
+workshop:
   build: .
   volumes:
     - "./work:/work"
+  ports:
+    - "3000:3000"
+  environment:
+    - RAILS_ENV=development
+  env_file:
+    - .env
+
+shell:
+  extends:
+    service: workshop
+  command: bash
+
+server:
+  extends:
+    service: workshop
+  command: rails server -b 0.0.0.0

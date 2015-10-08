@@ -13,4 +13,6 @@ ADD Gemfile* $SUPPORT/
 RUN cd $SUPPORT && bundle install
 
 ADD . $APP_HOME
-CMD bash
+
+COPY ./support/entrypoint.sh /bin/
+ENTRYPOINT ["sh", "/bin/entrypoint.sh"]
