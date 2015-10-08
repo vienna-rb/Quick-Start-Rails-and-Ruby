@@ -1,4 +1,4 @@
 shell:
   build: .
   volumes:
-    - ".:/work"
+    - "./work:/work"
