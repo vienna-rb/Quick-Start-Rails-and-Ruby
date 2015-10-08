@@ -13,3 +13,5 @@ If you take a look at the files that got created, it doesn't look like it does m
 
 Let's change that by adding the attributes we need. Since models are connected to the database and we want to save a few things about our todo there, we'll create the attributes there. When Rails works on a model, it takes a look at the database and creates the fields (attributes) based on what it sees in the database.
 For example, we will add a field to our todos in the database called "description", this will result in the model "Todo" to have an attribute named exactly the same, you won't need to define it in the `app/models/todo.rb` file. Nice, right?
+
+💾 [Add Todo resource](https://github.com/bastilian/todo-application/commit/3aeb43dc2ea08fe1dade47cd6786bf799eb416bf)
