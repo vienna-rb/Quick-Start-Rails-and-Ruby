@@ -19,6 +19,7 @@ end
 ```
 
 So, what does this do? when you run the migration it will run the `change` method and add two fields to the table where we store our todos. We also defined what they are the one is a string and the other is a datetime, this helps rails to know how to handle them. You'll see the magic later on.
+
 To make it all happen run:
 
 ```
@@ -26,5 +27,4 @@ rake db:migrate
 ```
 <span style="display:inline-block;float:right;margin-top:-3.5em;margin-right:.5em;position:relative;">:whale:</span>
 
-Let's take a look what our application looks like in the browser. Start up the server with `rails server`.
-If it started correctly you should see an empty list of todos and a link to a form to enter new ones
+💾 [Add Todo Fields](https://github.com/bastilian/todo-application/commit/cca3ec307c80796080dc574a2bcfd0766bd9e8b1)
