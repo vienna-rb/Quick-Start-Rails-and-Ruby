@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo '=> You are in a container!'

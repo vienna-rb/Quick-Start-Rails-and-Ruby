@@ -9,5 +9,6 @@ if [ -d "$APP_HOME/todo-application" ]; then
   bundle install
 fi
 
+whereami
 echo "=> Executing Command in Container"
 exec "$@"

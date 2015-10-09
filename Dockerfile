@@ -6,6 +6,8 @@ ENV APP_HOME /work
 ENV SUPPORT /support
 ENV EDITOR nano
 
+ADD support/bin/* /usr/local/bin/
+
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
