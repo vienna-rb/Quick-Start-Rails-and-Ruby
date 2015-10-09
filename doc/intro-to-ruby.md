@@ -1,6 +1,6 @@
 # Intro to Ruby
 
-__**Note:** Before you start, please, read the [README](README.md)!__
+__**Note:** Before you start, please, read the [README](../README.md)!__
 
 Ruby is the programming language the Rails is written in. It is a very expressive and object oriented programming languages. You should be able to get started with it very easily and you'll learn more about it when building our ToDo-Application. The basic and most important rule you have to remember is, that "Everything is an object". Everything has attributes and methods. Here is an example what Ruby looks like:
 

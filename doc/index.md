@@ -1,4 +1,4 @@
-1. [Intro](README.md)
+1. [Intro](../README.md)
  1. [Setup](intro/setup.md)
  2. [The /work directory](intro/the-work-directory.md)
  3. [Emojis and their meaning](intro/emojis-and-their-meaning.md)
