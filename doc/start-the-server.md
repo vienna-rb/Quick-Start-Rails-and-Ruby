@@ -1,7 +1,7 @@
 ## Start the server
 
 Rails comes with a development server, so you can test and see what you do in your browser as well.
-To start the server you run:
+To start the server you would need to run:
 
 ```
 rails server -b 0.0.0.0
@@ -10,4 +10,10 @@ rails server -b 0.0.0.0
 
 _**Note: We need to use the `-b` flag to bind it to all network addresses inside the Docker container._
 
-You can now go to your browser on `http://DOCKER_IP:3000` and you should see Rails' "Welcome aboard"-page
+To make things a little easier there is a container prepared that runs the server for you. To start the server type or copy&paste the following into your terminal, best in a new window or tab, and press enter:
+
+```
+docker-compose up server
+```
+
+You can now go to your browser on `http://DOCKER_IP:3000` and you should see Rails' "Welcome aboard"-page.
