@@ -4,7 +4,13 @@ This tutorial uses [Docker](https://www.docker.com/) and [Docker Compose](https:
 
 If you are not yet familiar with Docker that's no problem. Once you installed Docker and Docker Compose just remember to make sure whenever you see a ":whale:" next to a command that you are in a "container".
 
-If you are unsure ask. If you are in a container typing
+### Installing Docker and Docker Compose
+
+If you are on a Mac or Windows you can simply download and install the [Docker Toolbox](https://www.docker.com/toolbox).
+On Windows you will need to install Docker Compose manually. Start at step **4** here: http://docs.docker.com/compose/install/
+
+
+If you are unsure if you are in a container or not, ask by typing in the terminal:
 
 ```
 wherami
