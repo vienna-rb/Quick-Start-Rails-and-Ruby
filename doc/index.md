@@ -8,3 +8,4 @@
 5. [Add Todo's](add-todos.md)
 6. [Add Attributes to Todo's](add-attributes-to-todos.md)
 7. [Start the server](start-the-server.md)
+8. [Add the Views](add-the-views.md)
