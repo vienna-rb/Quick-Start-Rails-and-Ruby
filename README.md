@@ -13,3 +13,5 @@ git clone https://github.com/bastilian/Quick-Start-Rails-and-Ruby.git
 ```
 
 Or [Download it as a Zip-file](https://github.com/bastilian/Quick-Start-Rails-and-Ruby/archive/master.zip)
+
+Open the folder in your terminal and editor, go to [doc/index.md](doc/index.md) and start
