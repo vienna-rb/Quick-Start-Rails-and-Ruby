@@ -11,3 +11,4 @@
 8. [Add the Views](add-the-views.md)
 9. [Style the view](style-the-view.md)
 10. [Create and update todos](create-and-update-todos.md)
+11. [Add the Form and checkboxes](add-the-form-and-checkboxes.md)
