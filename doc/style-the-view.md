@@ -32,3 +32,5 @@ li { list-style: none; }
 ```
 
 This will make our Todo-list look good once we add more to our template.
+
+💾 [Add SemanticUI](https://github.com/bastilian/todo-application/commit/b5867646342b9ecfe2abc8f5dae77df48df8ca38)
