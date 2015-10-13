@@ -7,7 +7,7 @@ rails generate migration add_todo_fields
 ```
 <span style="display:inline-block;float:right;margin-top:-3.5em;margin-right:.5em;position:relative;">:whale:</span>
 
-If you take a look now at your editor and open the `db` folder you'll see that there is a new file, which includes "add_todo_fields" and a timestamp prefixed. Now let's edit this file to add some columns. For this we will add the following in the `change`-method. What you see in the end should look like the following:
+If you take a look now at your editor and open the `db` folder you'll see that there is a new file, which includes "add_todo_fields" and a timestamp prefixed. Now let's edit this file to add some columns (you can think of a database as an Excel sheet). For this we will add the following in the `change`-method:
 
 ```ruby
 class AddTodoFields < ActiveRecord::Migration
@@ -18,13 +18,13 @@ class AddTodoFields < ActiveRecord::Migration
 end
 ```
 
-So, what does this do? when you run the migration it will run the `change` method and add two fields to the table where we store our todos. We also defined what they are the one is a string and the other is a datetime, this helps rails to know how to handle them. You'll see the magic later on.
+So, what does this do? When you run the migration it will run the `change` method and add two fields to the table where we store our todos. We also defined what they are; the one is a string and the other is a datetime, this helps Rails to figure out how to process them. 
 
-To make it all happen run:
+Run the following command to make the database aware of the changes we made (<span style="display:inline-block;float:right;margin-top:-3.5em;margin-right:.5em;position:relative;">:whale:</span>):
 
 ```
 rake db:migrate
 ```
-<span style="display:inline-block;float:right;margin-top:-3.5em;margin-right:.5em;position:relative;">:whale:</span>
+
 
 💾 [Add Todo Fields](https://github.com/bastilian/todo-application/commit/cca3ec307c80796080dc574a2bcfd0766bd9e8b1)
