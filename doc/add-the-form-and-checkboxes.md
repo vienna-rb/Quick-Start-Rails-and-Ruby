@@ -1,6 +1,6 @@
 ## Add the Form and checkboxes
 
-To add the form to create new todos and to check them off we are gonna modify our `index.html.erb` template a bit.
+To add the form to create new todos and to tick them off we are going to modify our `index.html.erb` template a bit.
 
 Change the first line, the one with `<%= @todos.size %>` to the following:
 
@@ -21,20 +21,19 @@ Change the first line, the one with `<%= @todos.size %>` to the following:
 
 This adds the form to submit new todos.
 
-The form makes a `POST` request to `/todos` in our application. Rails uses HTTP-methods to route request from users as well. You can see what routes with what HTTP-method goes to which Controller and action with:
+The form makes a `POST` request to `/todos` in our application. Rails uses HTTP-methods to route request from users. You can see what routes with what HTTP-method goes to which Controller and action with (<span style="display:inline-block;float:right;margin-top:-3.5em;margin-right:.5em;position:relative;">:whale:</span>):
 
 ```shell
 rake routes
 ```
-<span style="display:inline-block;float:right;margin-top:-3.5em;margin-right:.5em;position:relative;">:whale:</span>
 
-The form also includes a hidden input named **authenticity_token** this will add a token to the data the form sends to verify that it comes from our application.
+The form also includes a hidden input named **authenticity_token**, this will add a token to the data the form sends to verify that it comes from our application.
 
-When you saved the template got to your browser and refresh `http://DOCKER_IP:3000/todos` and you should see the form and you can already submit your todos!
+When you saved the template go to your browser and refresh `http://DOCKER_IP:3000/todos`. You should see the form and you can already submit your todos!
 
 We will now change the list of todos a little bit using `semantic-ui`-css classes and make it all work by adding a bit of JavaScript.
 
-In the template change the `<ul>` and everything in it to this:
+In the template, change the `<ul>` and everything in it to this:
 
 ```html
 <ul id="todo-list">
@@ -52,9 +51,9 @@ In the template change the `<ul>` and everything in it to this:
 
 </ul>
 ```
-The todos now also have a checkbox and are marked with CSS classes to make it look nice.
+The todos now also have a checkbox and are marked with CSS classes to make them look nice.
 
-The checkbox uses the "done" attribute of the Todo to know if it is checked or not. We will create that in the next step. Before that we will add some JavaScript to `application.js` that will make and update to our todos by making a request in the background:
+The checkbox uses the "done" attribute of the Todo to know if it is ticked off or not. We will create that in the next step. Before that we will add some JavaScript to `application.js`, which will create and update to our todos by making a request in the background:
 
 ```javascript
 $(document).ready(function () {
