@@ -1,12 +1,13 @@
 ## Style the view
 
-Since we are focusing on Ruby and Rails here, we are simply gonna use a CSS-Framework to provide us with some basic styling. We are gonna use SemanticUI by adding the this to our `Gemfile`
+
+Since we are focusing on Ruby and Rails here, we are going to use a CSS-Framework (SemanticUI) to provide us with some basic styling. Add the following to your `Gemfile`:
 
 ```
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 ```
 
-To include the stylesheets and javascripts that make SemanticUI work in we need to `require` them.
+To include the stylesheets and javascripts that make SemanticUI work in our app, we need to `require` them.
 
 Add this to `app/assets/stylesheets/application.css` in to the comment-block at the top before the `*/`:
 
