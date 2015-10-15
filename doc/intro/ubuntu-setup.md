@@ -4,6 +4,8 @@
 
 This guide follows along Dockers's own [installation guide](https://docs.docker.com/installation/ubuntulinux/) for Ubuntu
 
+* Open a new terminal
+
 * Prerequisite is a 64 bit Ubuntu Version, find out using <br/>
   ```uname -a``` <br/>
   e.g. ```Linux aristoteles 3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux``` <br/>
@@ -16,9 +18,9 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
   * Ubuntu 14.04 -> Trusty
   * Ubuntu 12.04 -> Precise
 
-* Open a new terminal
 * add a GPG key for a the Docker package repository <br/>
   ```apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D```
+  If this fails, no worries, you might get some warning later on installing, that you can safely ignore.
 
 * Open the /etc/apt/sources.list.d/docker.list file in your favorite editor or create it. <br/>
   If you don't know editors use: <br/>
@@ -50,12 +52,8 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
 * Install prequesites:
   * Ubuntu  Precise <br/>
     ```sudo apt-get install linux-image-generic-lts-precise linux-headers-generic-lts-precise xserver-xorg-lts-precise libgl1-mesa-glx-lts-precise```
-  * Ubuntu  Trusty <br/>
-    ```sudo apt-get install linux-image-generic-lts-trusty linux-headers-generic-lts-trusty xserver-xorg-lts-trusty libgl1-mesa-glx-lts-trusty```
-  * Ubuntu  Vivid <br/>
-    ```sudo apt-get install linux-image-generic-lts-vivid linux-headers-generic-lts-vivid xserver-xorg-lts-vivid libgl1-mesa-glx-lts-vivid```
-  * Ubuntu  Wily <br/>
-    ```sudo apt-get install linux-image-generic-lts-wily linux-headers-generic-lts-wily xserver-xorg-lts-wily libgl1-mesa-glx-lts-wily```
+  * Ubuntu  Trusty, Vivid or Wily <br/>
+    ```sudo apt-get install linux-image-generic linux-headers-generic xserver-xorg libgl1-mesa-glx```
 
 * If this installed new packages, reboot now.
 
@@ -66,6 +64,8 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
   ```sudo docker run hello-world``` <br/>
   You should see one line in the output containing: This message shows that your installation appears to be working correctly. <br/>
   Warning messages in between are fine.
+
+* We've seen, that in the case, that docker didn't start on it's own another reboot has helped.
 
 ### Docker Compose installation
 
