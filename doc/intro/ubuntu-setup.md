@@ -75,8 +75,7 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
 * Download Docker Compose: <br/>
   ```curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose```
 
-* Get back to your own account:  <br/>
-  ```exit```
+* Get back to your own account: ```exit```
 
 * Make docker-compose executeable <br/>
   ```sudo chmod +x /usr/local/bin/docker-compose```
