@@ -26,8 +26,6 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
 
   ```apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D```
 
-* find out your Ubuntu version:
-
 * Open the /etc/apt/sources.list.d/docker.list file in your favorite editor or create it.
 
   If you don't know editors use:
