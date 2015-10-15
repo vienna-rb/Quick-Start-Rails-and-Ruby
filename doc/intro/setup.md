@@ -9,6 +9,8 @@ If you are not yet familiar with Docker, that's no problem. Once you installed D
 If you are on a Mac or Windows you can download and install the [Docker Toolbox](https://www.docker.com/toolbox).
 On Windows you will also need to install Docker Compose manually; start at step **4** here: http://docs.docker.com/compose/install/
 
+If you are on Ubuntu Linux, we have a tutorial on the [Ubuntu Setup](ubuntu-setup.md) page.
+
 
 If at any point during the tutorial, you are unsure if you are in a container or not, ask by typing in the terminal:
 
