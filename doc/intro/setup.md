@@ -21,7 +21,7 @@ whereami
 and pressing enter either will tell you "You are in a container!" or it will say something like "Command not found". If you are not in a container and the command was **not found**, change into the directory of this tutorial in your terminal (with `cd`) and run the following command:
 
 ```
-docker-compose run shell
+sudo docker-compose run shell
 ```
 
 If you see "=> You are in a container!" then you are all good and you can run the commands in this tutorial. :)
