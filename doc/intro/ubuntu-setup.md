@@ -99,9 +99,7 @@ deb https://apt.dockerproject.org/repo ubuntu-wily main
 
   ```curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose```
 
-* Become yourself again:
-
-  ```exit```
+* Get back to your own account: ```exit```
 
 * Make docker-compose executeable
 
