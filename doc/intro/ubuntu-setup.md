@@ -39,19 +39,16 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
 * Add ONE option for your Ubuntu version derived above:
   * Ubuntu Precise
 
-    deb https://apt.dockerproject.org/repo ubuntu-precise main
-
+    ```deb https://apt.dockerproject.org/repo ubuntu-precise main```
   * Ubuntu Trusty
 
-    deb https://apt.dockerproject.org/repo ubuntu-trusty main
-
+    ```deb https://apt.dockerproject.org/repo ubuntu-trusty main```
   * Ubuntu Vivid
 
-    deb https://apt.dockerproject.org/repo ubuntu-vivid main
-
+    ```deb https://apt.dockerproject.org/repo ubuntu-vivid main```
   * Ubuntu Wily
 
-    deb https://apt.dockerproject.org/repo ubuntu-wily main
+    ```deb https://apt.dockerproject.org/repo ubuntu-wily main```
 
 * Update the package information
   ```sudo apt-get update```
@@ -66,16 +63,16 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
 * Install prequesites:
   * Ubuntu  Precise
 
-    sudo apt-get install linux-image-generic-lts-precise linux-headers-generic-lts-precise xserver-xorg-lts-precise libgl1-mesa-glx-lts-precise
+    ```sudo apt-get install linux-image-generic-lts-precise linux-headers-generic-lts-precise xserver-xorg-lts-precise libgl1-mesa-glx-lts-precise```
   * Ubuntu  Trusty
 
-    sudo apt-get install linux-image-generic-lts-trusty linux-headers-generic-lts-trusty xserver-xorg-lts-trusty libgl1-mesa-glx-lts-trusty
+    ```sudo apt-get install linux-image-generic-lts-trusty linux-headers-generic-lts-trusty xserver-xorg-lts-trusty libgl1-mesa-glx-lts-trusty```
   * Ubuntu  Vivid
 
-    sudo apt-get install linux-image-generic-lts-vivid linux-headers-generic-lts-vivid xserver-xorg-lts-vivid libgl1-mesa-glx-lts-vivid
+    ```sudo apt-get install linux-image-generic-lts-vivid linux-headers-generic-lts-vivid xserver-xorg-lts-vivid libgl1-mesa-glx-lts-vivid```
   * Ubuntu  Wily
 
-    sudo apt-get install linux-image-generic-lts-wily linux-headers-generic-lts-wily xserver-xorg-lts-wily libgl1-mesa-glx-lts-wily
+    ```sudo apt-get install linux-image-generic-lts-wily linux-headers-generic-lts-wily xserver-xorg-lts-wily libgl1-mesa-glx-lts-wily```
 
 * If this installed new packages, reboot now.
 
