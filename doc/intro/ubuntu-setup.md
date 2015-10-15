@@ -20,8 +20,7 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
 
 * add a GPG key for a the Docker package repository <br/>
   ```apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D```
-     apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
-
+  If this fails, no worries, you might get some warning later on installing, that you can safely ignore.
 
 * Open the /etc/apt/sources.list.d/docker.list file in your favorite editor or create it. <br/>
   If you don't know editors use: <br/>
