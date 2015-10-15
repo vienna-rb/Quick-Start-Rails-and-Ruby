@@ -27,7 +27,7 @@ def todo_params
 end
 ```
 
-While we are here, let's change the order in the index-action, so we have the newest todos first. Here is what the index-action should look like:
+While we are here, let's change the order in the index-action. We want to have the todos in *descending* order, so we can see the newest ones at the top. Here is what the index-action should look like:
 
 ```
 def index
@@ -35,7 +35,7 @@ def index
 end
 ```
 
-We added `.order('created_at DESC')` to the `all`-call.
+We added `.order('created_at DESC')` to the `all`-call; `DESC` stands for "descending".
 
 Save it, reload the page in the browser and tada!
 We bet that's how [Wunderlist](http://wunderlist.com/) started!

@@ -19,13 +19,13 @@ This creates a new Controller class for us in which we can put our action. In be
   end
 ```
 
-The above code defines a new method for the controller Object, or in this context called "action". When it is executed (by going to `/todos` in the browser) it will define a variable which asks the Todo-Model for **all** Todos in the database. The variable will be passed to the view as well, you'll se that soon.
+The above code defines a new method for the Controller object – in this context called "action". When it is executed (by going to `/todos` in the browser) it will define a variable which asks the Todo-Model for **all** Todos in the database. The variable will be passed to the view as well, you'll see that soon.
 
-Once you've saved the file and refresh the page in the browser, you'll see another error, that's ok. Rails will always try to tell you what is wrong in the best possible way, so you can fix them. This error should tell you that the **Template is missing**, so let's add one. For this create a new file called "index.html.erb" under `app/views/todos`.
+Once you've saved the file and refresh the page in the browser, you'll see another error – but don't worry about it! Rails will always try to tell you what is wrong in the best possible way, so you can fix the errors. In our particular case, the error tells you that the **Template is missing**, so let's add one. Remember how we compared views to templates earlier? In order to add a "template", create a new file called "index.html.erb" under `app/views/todos`.
 
-You just created a template! Notice the file ending "erb", that tells Rails that this is an ERB-template, which allows you to run Ruby to make your HTML "dynamic", meaning if something in the database changes it changes the html.
+You just created a template! Notice the file ending `.erb` which tells Rails that this is an ERB-template: A template that allows you to run Ruby to make your HTML "dynamic", meaning that if something in the database changes, it changes the html.
 
- * If you want to simple run Ruby code in your template you wrap it in `<% ... %>`
+ * If you want to just run Ruby code in your template, you wrap it in `<% ... %>`
  * If you want to display something from Ruby use `<%= ... %>`
 
 First we want to display how many Todos we have. So we ask the `@todos` variable what size it has and show that like so:
@@ -34,7 +34,7 @@ First we want to display how many Todos we have. So we ask the `@todos` variable
 <%= @todos.size %>
 ```
 
-Add this to the template, save it and refresh the page. You should see a number on the page most likely a "0", since we have not yet added any todos. Next, let's show the todos in a unordered-list (<ul>), for when we have added some.
+Add this to the template, save it and refresh the page. You should see a number on the page – most likely a "0", since we have not yet added any todos. Next, let's show the todos in an unordered-list (<ul>), for when we have added some.
 
 We are going over each todo in `@todos` and display the description of it. The code you'd write would look as follows:
 

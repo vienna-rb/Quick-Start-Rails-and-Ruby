@@ -1,6 +1,6 @@
 ## Create and update Todos
 
-Of course we also want to add some todos and tick them off once we did them.
+Of course we also want to add some todos and and mark them as done when needed.
 In Rails this can be done by adding a `create` and an `update` method to our `TodosController`.
 
 In the create action, we want the `Todo` model to save a new todo to our database. Our action should look like this then:
@@ -17,7 +17,7 @@ end
 
 We are creating a new Todo and assigning it to the `@todo` variable. Then we try to `save` this new todo and if this returns `true`, it will redirect us to our index action.
 
-You may notice the `todo_params` when we make a new Todo object. Let's look at that. We have not added this yet, but we will in a minute. The method we are going to add to our controller is not an action that you can access through the browser, it is a method that will look at what parameters our browser sent, this also will contain our todo-data. In the method we will mark parameters that are "allowed".
+You may notice the `todo_params` when we make a new Todo object, so let's look at that. We have not added this yet, but we will in a minute. The method we are going to add to our controller is not an action that you can access through the browser, it is a method that will look at what parameters our browser sent, this also will contain our todo-data. In the method, we will mark parameters that are "allowed".
 
 Put the following method at the end of the `TodosController`, before the last `end`:
 
