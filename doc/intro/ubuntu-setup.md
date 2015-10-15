@@ -113,4 +113,5 @@ deb https://apt.dockerproject.org/repo ubuntu-wily main
 
   ```docker-compose -v```
 
-  In the exmaple output: ```docker-compose version: 1.4.2``` indicates that the installation was successfull
+  In the example output: ```docker-compose version: 1.4.2``` indicates that the installation was successfull
+
