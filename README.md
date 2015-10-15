@@ -22,4 +22,4 @@ cd Quick-Start-Rails-and-Ruby
 
 Also open the folder in your preferred text editor (we recommend [Sublime](http://www.sublimetext.com/2) or [Atom](https://atom.io/)).
 
-Go to [doc/index.md](doc/index.md) and start.x§
+Go to [doc/index.md](doc/index.md) and start.
