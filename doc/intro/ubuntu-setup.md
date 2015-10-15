@@ -37,17 +37,13 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
 * Remove existing entries, if any.
 
 * Add ONE option for your Ubuntu version derived above:
-  * Ubuntu Precise
-
+  * Ubuntu Precise <br/>
     ```deb https://apt.dockerproject.org/repo ubuntu-precise main```
-  * Ubuntu Trusty
-
+  * Ubuntu Trusty <br/>
     ```deb https://apt.dockerproject.org/repo ubuntu-trusty main```
-  * Ubuntu Vivid
-
+  * Ubuntu Vivid <br/>
     ```deb https://apt.dockerproject.org/repo ubuntu-vivid main```
-  * Ubuntu Wily
-
+  * Ubuntu Wily <br/>
     ```deb https://apt.dockerproject.org/repo ubuntu-wily main```
 
 * Update the package information
@@ -61,17 +57,13 @@ This guide follows along Dockers's own [installation guide](https://docs.docker.
   should contain lines containing: ``` https://apt.dockerproject.org/repo/```
 
 * Install prequesites:
-  * Ubuntu  Precise
-
+  * Ubuntu  Precise <br/>
     ```sudo apt-get install linux-image-generic-lts-precise linux-headers-generic-lts-precise xserver-xorg-lts-precise libgl1-mesa-glx-lts-precise```
-  * Ubuntu  Trusty
-
+  * Ubuntu  Trusty <br/>
     ```sudo apt-get install linux-image-generic-lts-trusty linux-headers-generic-lts-trusty xserver-xorg-lts-trusty libgl1-mesa-glx-lts-trusty```
-  * Ubuntu  Vivid
-
+  * Ubuntu  Vivid <br/>
     ```sudo apt-get install linux-image-generic-lts-vivid linux-headers-generic-lts-vivid xserver-xorg-lts-vivid libgl1-mesa-glx-lts-vivid```
-  * Ubuntu  Wily
-
+  * Ubuntu  Wily <br/>
     ```sudo apt-get install linux-image-generic-lts-wily linux-headers-generic-lts-wily xserver-xorg-lts-wily libgl1-mesa-glx-lts-wily```
 
 * If this installed new packages, reboot now.
